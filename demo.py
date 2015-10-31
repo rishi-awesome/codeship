@@ -9,6 +9,5 @@ if not "Google" in driver.title:
 elem = driver.find_element_by_name("q")
 elem.send_keys("Coverfox")
 elem.submit()
-#print
 print driver.title
 driver.quit()
